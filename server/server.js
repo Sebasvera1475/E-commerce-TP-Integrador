@@ -12,16 +12,16 @@ app.get('/api/products', (req, res) => {
   const products = [
     { 
       id: 1, 
-      name: 'Cámara web HD 1080P', 
-      oldPrice: 37500, 
-      price: 35000, 
+      name: 'Cámara web', 
+      oldPrice: 100, 
+      price: 3500, 
       urlImg: 'https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSmYckEMeFKNyPfp2TJu1Fup4HIBjibtiCqO3I6nbhWev7LIyxevl52_-aZwkaoJmuOVxzl0GTcx9nqq5G4T3ArSy99H_T5&usqp=CAE'
     },
     {
       id: 2, 
-      name: 'Campera Keyboard programador',  
-      oldPrice: 11500, 
-      price: 11200, 
+      name: 'Campera Keyboard',  
+      oldPrice: 1150, 
+      price: 1120, 
       urlImg: 'https://purodiseno.lat/wp-content/uploads/2023/04/CAMPERA-TECLADO-2-821x1024.jpg' 
     },
     { 
